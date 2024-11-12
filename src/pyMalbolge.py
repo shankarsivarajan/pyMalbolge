@@ -19,7 +19,7 @@ POW9, POW10 = 3**9, 3**10
 # --------------------------------------------------
 
 def rotate(n):
-    return POW9*(n%3) + n/3
+    return POW9*(n%3) + n//3
 
 def crazy(a, b):
     result = 0
